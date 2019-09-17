@@ -1,0 +1,72 @@
+{
+    "title" : "博客记录",
+    "author" : "xiaolei.fu",
+    "description" : "记录编程是杂七杂八",
+    "language" : "zh-hans",
+    "links" : {
+	    "sidebar" : {
+	        "Home" : "https://github.com/xiaolei-fu/blogs"
+	    }
+	},
+	"styles": {
+	    "website": "styles/website.css",
+	    "ebook": "styles/ebook.css",
+	    "pdf": "styles/pdf.css",
+	    "mobi": "styles/mobi.css",
+	    "epub": "styles/epub.css"
+	},
+	"plugins": [
+	    "-lunr", 
+        "-search", 
+        "search-pro",
+	    "back-to-top-button",
+	    "expandable-chapters-small",
+	    "chapter-fold",
+	    "code",
+	    "advanced-emoji",
+	    "github",
+	    "splitter",
+	    "-sharing",
+	    "sharing-plus",
+	    "tbfed-pagefooter",
+	    "page-toc-button",
+	    "mermaid",
+	    "js-sequence-diagram",
+	    "flowchart"
+	],
+	"pluginsConfig": {
+      "code": {
+        "copyButtons": false
+      },
+      "github": {
+        "url": "https://github.com/xiaolei-fu"
+      },
+      "sharing": {
+             "douban": false,
+             "facebook": false,
+             "google": true,
+             "pocket": false,
+             "qq": false,
+             "qzone": true,
+             "twitter": false,
+             "weibo": true,
+             "all": [
+               "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+               "messenger","qq", "qzone","viber","whatsapp"
+           	]
+       },
+       "tbfed-pagefooter": {
+            "copyright":"Copyright &copy xiaolei.fu 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+       },
+       "page-toc-button": {
+            "maxTocDepth": 3,
+            "minTocSize": 2
+       },
+       "flowchart": {
+	    "line-color": "red"
+	  }
+    }
+
+}
