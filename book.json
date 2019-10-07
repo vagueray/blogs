@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "title" : "博客记录",
     "author" : "xiaolei.fu",
     "description" : "记录编程是杂七杂八",
@@ -69,4 +70,80 @@
 	  }
     }
 
+=======
+  "title": "笔记",
+  "author": "xiaolei.fu",
+  "description": "非技术型总结&私密总结",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "Home": "https://github.com/xiaolei-fu/notes"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "expandable-chapters-small",
+    "chapter-fold",
+    "code",
+    "advanced-emoji",
+    "github",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "ancre-navigation",
+    "mermaid",
+    "js-sequence-diagram-full@>=0.3.1",
+    "flowchart"
+  ],
+  "pluginsConfig": {
+    "code": {
+      "copyButtons": false
+    },
+    "github": {
+      "url": "https://github.com/xiaolei-fu"
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "twitter": false,
+      "weibo": true,
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "linkedin",
+        "twitter",
+        "weibo",
+        "messenger",
+        "qq",
+        "qzone",
+        "viber",
+        "whatsapp"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy xiaolei.fu 2019",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "flowchart": {
+      "line-color": "red"
+    }
+  }
+>>>>>>> config gitbook
 }
